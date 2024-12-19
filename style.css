@@ -1,0 +1,1038 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body p {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+
+.col-3 {
+    margin: 0;
+    padding: 0;
+}
+
+.col-9 {
+    margin: 0;
+    padding: 0;
+}
+
+.col-6 {
+    margin: 0;
+    padding: 0;
+}
+.col-12{
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f1f0;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar img {
+    height: 50px;
+}
+
+.sidebar .logohead {
+    font-size: 40px;
+    color: #BD945A;
+    font-family: 'Alex Brush', cursive;
+    text-align: center;
+}
+
+.sidebar .weedingdate {
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.sidebar .option {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.sidebar .option ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar .option a {
+    text-decoration: none;
+    padding-bottom: 5px;
+    color: black;
+    line-height: 2;
+    font-weight: 100;
+    position: relative;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.sidebar .option a::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #BD945A;
+    transition: width 0.3s ease;
+}
+
+.sidebar .option a:hover::after{
+    width: 100%;
+}
+
+.sidebar hr {
+    color: #e0ccb4;
+    width: 60%;
+    border: 2px solid #e0ccb4;
+}
+
+.sidebar .footer1 {
+    text-align: center;
+    font-size: 13px;
+}
+.sidebar .footer1 a{
+    text-decoration: none;
+    color: #888;
+}
+
+.section .headimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url('bride1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.headimg .headtext1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.headimg .headtext1 a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+@keyframes jump{
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-30px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    75%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.headimg .headtext1 a{
+    animation: jump 2s infinite ease-in-out;
+}
+
+.headimg .headtext1 i{
+    font-size: 30px;
+    color: white;
+}
+
+.section .headimg .headtext {
+    font-family: 'Alex Brush', cursive;
+    font-weight: 500;
+    color: white;
+    font-size: 120px;
+    text-align: center;
+}
+
+.couples{
+    padding: 100px 60px;
+    background-color: #faf8f8;
+    
+}
+
+.row .bride {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    width: 80%;
+    background-color: #ffffff;
+    margin:auto;
+}
+
+.row .groom {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    width: 80%;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.bride .bridetext {
+    text-align: right;
+}
+
+.bride .bridename i {
+    color: #BD945A;
+}
+
+.groom .groomname i {
+    color: #BD945A;
+}
+
+.bride .brideimg img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.groom .groomimg img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.bride .bridethead {
+    color: #BD945A;
+    font-family: 'Alex Brush', cursive;
+    font-size: 25px;
+}
+
+.bride .bridetext .icon {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    color: #888;
+    font-size: 16px;
+    margin: 20px 0px;
+}
+
+.bride .bridetext .icon .icon1 {
+    border: 1px solid #888;
+    border-radius: 50%;
+    width: 10%;
+    text-align: center;
+}
+
+.groom .groomtext .icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #888;
+    font-size: 16px;
+    margin: 20px 0px;
+}
+
+.groom .groomtext .icon .icon1 {
+    border: 1px solid #888;
+    border-radius: 50%;
+    width: 10%;
+    text-align: center;
+}
+
+.groom .groomthead {
+    color: #BD945A;
+    font-family: 'Alex Brush', cursive;
+    font-size: 25px;
+}
+
+.bride .bridename {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.groom .groomname {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.couples .bridefooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #faf8f7;
+    padding: 20px;
+}
+
+.bridefooter .getmarried {
+    font-size: 60px;
+    color: #BD945A;
+    font-family: 'Alex Brush', cursive;
+    text-align: center;
+}
+
+.family1 .family {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 50vh;
+    background-image: url('banner1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.family1 .family .familytext {
+    font-size: 60px;
+    font-family: 'Alex Brush', cursive;
+    text-align: center;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    gap: 10px;
+}
+
+#countdown span {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.story{
+    padding: 100px 60px;
+    
+}
+
+.story .storyimg {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    
+   
+}
+.border_1{
+    border: 10px solid #BD945A;
+    height: 400px;
+    width: 75%;
+    position: relative;
+    left: 20px;
+    top: 40px;
+    
+}
+
+.story .storyimg img {
+    width: 75%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.story .storytext{
+    padding: 10px;
+}
+
+.story .storytext .love {
+    font-size: 30px;
+    font-family: 'Alex Brush', cursive;
+    color: #BD945A;
+}
+
+.storytext .lovestory {
+    font-size: 30px;
+    font-family: remixicon;
+}
+
+.storytext .storypara {
+    color: #888;
+    margin: 15px 0px;
+}
+
+.storytext .dec5th {
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.friends{
+    padding: 100px 60px;
+    background-color: #faf8f7;
+}
+
+.friends .friendhead{
+    font-size: 30px;
+    font-family: 'Alex Brush', cursive;
+    color: #BD945A;
+}
+
+.friends .friendhead1{
+    font-size: 30px;
+    font-family: 'remixicon';
+}
+
+.friends .carousel .carousel-indicators  {
+    margin-bottom: -20px;
+  }
+
+  .friends .carousel .carousel-indicators button{
+    background-color: #BD945A;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+  }
+
+  .friends .frineds1 .friends2 img{
+    border-radius: 50%;
+    width: 32% !important;
+}
+.friends .friends2{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin: 20px;
+    gap: 10px;
+    background-color: white;
+}
+.frineds1 .friends2 .boxhead{
+    font-size: 23px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 100;
+}
+
+.frineds1 .friends2 .boxhead1{
+    font-size: 30px;
+    font-family: 'Alex Brush', cursive;
+    color: #BD945A;
+}
+.frineds1 .friends2 .boxpara{
+    color: #888888a7;
+}
+
+.friends .owl-carousel button.owl-dot{
+    width: 8px !important;
+    height: 8px !important;
+    background-color: #BD945A !important;
+    border-radius: 50% !important;
+}
+
+.friends .owl-carousel .owl-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.forward .forwardtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    height: 50vh;
+    background-image: url('banner3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.forwardtext i {
+    font-size: 40px;
+}
+
+.forwardtext .forwardtext1 {
+    font-size: 60px;
+    font-family: 'Alex Brush', cursive;
+}
+
+.forwardtext .date1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.organization {
+    padding: 100px 60px;
+    background-color: #faf8f7;
+}
+
+.organization .organization1 {
+    background-image: url('bride1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.organization span {
+    font-size: 30px;
+    color: #BD945A;
+    font-family: 'Alex Brush', cursive;
+}
+
+.organization .header {
+    font-size: 30px;
+    font-family: auto;
+    margin-bottom: 30px;
+}
+
+.organization .cermony {
+    padding: 50px 40px;
+    height: 100%;
+    background-color: white;
+    border: 1px solid #f6f1f0;
+    border-right: none;
+}
+
+.organization .cermony:hover {
+    background-color: #000000ab;
+    color: white;
+}
+
+.organization .cermony .serial {
+    font-size: 50px;
+    color: transparent;
+    -webkit-text-stroke: 1px #BD945A;
+}
+
+.cermony .head {
+    font-size: 20px;
+    font-family: 'remixicon';
+}
+
+.cermony .para {
+    color: #888;
+}
+
+.gallery{
+    padding: 100px 60px;
+}
+
+.gallery .row ul{
+    margin-top: 1rem;
+}
+
+.gallery .row a{
+    text-decoration: none;
+    color: #888;
+    margin-right: 10px;
+    width: 10%;
+    padding: 10px;
+}
+
+.gallery .row a:hover{
+    background-color: #BD945A;
+}
+
+.gallery .gallerhead{
+    font-size: 30px;
+    font-family: 'Alex Brush', cursive;
+    color: #BD945A;
+}
+.gallery .gallerhead1 {
+    font-size: 30px;
+    font-family: 'remixicon';
+}
+
+.gallery .gallery1 {
+    margin: 30px 0px;
+}
+
+.gallery .gallery1 .gallery2 {
+    width: 95%;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery2 .gallerydetail {
+    font-family: 'Alex Brush', cursive;
+    color: #fff;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    z-index: 1;
+    line-height: 10;
+    transition: all 0.5s ease;
+}
+
+.gallery2:hover .gallerydetail {
+    opacity: 1;
+   background-color: #0000008f;
+   transform: scale(1.1);
+}
+
+.gallery .gallery1 .gallery2 img {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.gallery .gallery1 .gallery2:hover img {
+    transform: scale(1.1);
+}
+
+.questions{
+    width: 100%;
+    padding: 100px 60px;
+    background-color: #faf8f7;
+}
+
+.questions .head2{
+    font-size: 30px;
+    font-family: 'Alex Brush', cursive;
+    color: #BD945A;
+}
+
+.questions .head3{
+    font-size: 28px;
+    font-family: 'remixicon';
+    padding-bottom: 20px;
+}
+
+.questions .questionstext .questionstext1  img{
+    width: 100%;
+}
+
+.questionstext .questionstext1{
+    width: 90%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.questionstext .questionstext1 img:hover {
+    transform: scale(1.1);
+}
+
+.questionstext .questionstext1 .head{
+    font-size: 20px;
+    font-family: 'remixicon';
+    padding: 20px;
+}
+
+.questionstext .questionstext1 i{
+    font-size: 20px;
+    color: #BD945A;
+}
+
+.questionstext .questionstext1 .head1{
+    color: #888;
+    padding: 10px 20px;
+}
+
+.rsvp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(banner2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.rsvp .rsvpbox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 45%;
+    margin: auto;
+    padding: 40px;
+    background-color: white;
+    text-align: center;
+}
+
+.rsvpbox .rsvpform{
+    font-size: 30px;
+    font-family: 'Alex Brush', cursive;
+    color: #BD945A;
+}
+
+.rsvpbox .rsvpform1{
+    font-size: 30px;
+    font-family: 'remixicon';
+}
+
+.rsvp .rsvpbox .rsvpbutton{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.rsvp .rsvpbox .rsvpbutton input{
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ececec;
+}
+.rsvp .rsvpbox .rsvpbutton textarea{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ececec;
+}
+
+.rsvpbox .rsvpbutton .rsvpbutton1{
+    width: 20%;
+    height: 40px;
+    font-weight: 400;
+    border: none;
+    color: white;
+    background-color: #BD945A;
+}
+
+.gift{
+    padding: 100px 60px;
+}
+
+.gift img{
+    width: 90%;
+}
+
+.gift .giftname{
+}
+
+.gift .gifthead{
+    font-size: 30px;
+    font-family: 'Alex Brush', cursive;
+    color: #BD945A;
+}
+.gift .gifthead1{
+    font-size: 30px;
+    font-family: 'remixicon';
+}
+
+.footer{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #faf8f7;
+}
+
+.footer .footer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer1 img{
+    height: 50px;
+}
+
+.footer1 .footer2{
+    font-size: 40px;
+    font-family: 'Alex Brush', cursive;
+    text-align: center;
+}
+.footer1 .footer3{
+    color: #888;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    
+    .col-3{
+        width: 0;
+    }
+    .col-9{
+        width: 100%;
+    }
+    .col-12{
+        padding: 0;
+    }
+    .sidebar{
+        display: table;
+        height: auto;
+    }
+
+    .sidebar hr{
+        width: 100%;
+    }
+
+    .navbar{
+        padding: 0;
+    }
+
+    .sidebar .navbar-toggler{
+        position: absolute;
+        margin-left: -75%;
+        background-color: #BD945A;
+        margin-top: 15px;
+    }
+    .section .headimg{
+        height: 70vh;
+    }
+
+    .section .headimg .headtext{
+        font-size: 60px;
+    }
+
+    .couples{
+        padding: 80px 15px;
+    }
+
+    .row .bride{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .bride .brideimg{
+        display: flex;
+        justify-content: center;
+    }
+
+    .bride .bridetext{
+        text-align: center;
+    }
+    .bride .brideimg img{
+        width: 45%;
+    }
+    .bride .bridetext .icon{
+        justify-content: center;
+    }
+    .bride .bridetext .icon .icon1{
+        height: 35px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .row .groom{
+        display: table;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .groom .groomimg img{
+        width: 45%;
+    }
+    .groom .groomimg{
+        display: flex;
+        justify-content: center;
+    }
+    .groom .groomtext{
+        text-align: center;
+    }
+    .groom .groomtext .icon{
+        justify-content: center;
+    }
+    .groom .groomtext .icon .icon1{
+        height: 35px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .couples .bridefooter{
+        padding: 45px 15px;
+    }
+    .bridefooter .getmarried{
+        font-size: 35px;
+    }
+    .family1 .family{
+        background-attachment: unset;
+    }
+    .family1 .family .familytext{
+        font-size: 37px;
+    }
+    .story{
+        padding: 80px 15px;
+    }
+
+    .story .storyimg{
+        margin-bottom: 30px;
+    }
+    .story .storyimg img{
+        width: 85%;
+    }
+    .story .storytext{
+        padding-top: 40px;
+    }
+
+    .border_1{
+        width: 76%;
+        height: 435px;
+        margin: auto;
+    }
+
+    .friends{
+        padding: 80px 15px;
+    }
+
+    .friends .friends2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .friends .frineds1 .friends2 img{
+        width: 50% !important;
+    }
+
+    .forward .forwardtext{
+        background-attachment: unset;
+    }
+    .forwardtext .forwardtext1{
+        font-size: 35px;
+    }
+    .forwardtext .date1{
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    .friends .owl-carousel button.owl-dot{
+        width: 8px !important;
+        height: 8px !important;
+        background-color: #BD945A !important;
+        border-radius: 50% !important;
+    }
+
+    .friends .owl-carousel .owl-dots{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .organization{
+        padding: 80px 15px;
+    }
+    .organization .cermony{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .organization .cermony:hover{
+        background-color: #000000ab;
+    }
+    .organization .cermony:hover .para{
+        color: white;
+    }
+
+    .gallery{
+        padding: 80px 15px;
+    }
+    .gallery .gallery1{
+        margin: 0;
+    }
+    .gallery .gallery1 .gallery2{
+        margin: 15px 10px;
+    }
+    .questions{
+        padding: 80px 15px;
+    }
+    .questionstext .questionstext1{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .rsvp{
+        background-attachment: unset;
+    }
+    .rsvp .rsvpbox{
+        width: 85%;
+        padding: 20px;
+    }
+
+    .rsvp .rsvpbox .rsvpbutton{
+        padding: 0;
+    }
+    .rsvp .rsvpbox .rsvpbutton input{
+        width: 100%;
+        height: 45px;
+    }
+    .rsvp .rsvpbox .rsvpbutton textarea{
+        width: 100%;
+    }
+    .rsvpbox .rsvpbutton .rsvpbutton1{
+        width: 35%;
+        height: 45px;
+    }
+    .gift{
+        padding: 80px 15px;
+      }
+    
+      .gift .giftimage{
+        margin-top: 40px;
+        padding: 20px;
+      }
+      .gift .giftname{
+        margin-left: 25px;
+      }
+  }
+
+  @media only screen and (min-width: 601px) and (max-width:992px){
+
+    .sidebar{
+        height: 65vh;
+    }
+
+    .family1 .family{
+
+    }
+    .section .headimg{
+        height: 65vh;
+    }
+    .section .headimg .headtext{
+        font-size: 100px;
+    }
+
+    .couples{
+        padding: 60px 20px;
+    }
+
+    .row .bride{
+        width: 100%;
+    }
+    .row .groom{
+        width: 100%;
+    }
+
+    .story{
+        padding: 50px 20px;
+    }
+    .border_1{
+        height: 265px;
+        width: 77%;
+    }
+    
+    .gallery{
+        padding: 60px 20px;
+    }
+
+    .questions{
+        padding: 60px 20px;
+    }
+
+    .rsvp .rsvpbox{
+        width: 75%;
+    }
+  }
+  
